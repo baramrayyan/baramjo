@@ -1,0 +1,109 @@
+{
+  "mainSiteUrl": "https://www.baramjo.tech",
+  "hero": {
+    "title": "Welcome to Baramjo",
+    "subtitle": "Network Engineering and Security Student",
+    "description": "Hi, I'm Bara' from Irbid, Jordan (hence 'Baramjo'). I've been passionate about technology since a young age, and I'm currently studying at Jordan University of Science and Technology.",
+    "logo": "logo.png",
+    "links": [
+      {
+        "name": "GitHub",
+        "icon": "fab fa-github",
+        "url": "https://github.com/baramrayyan"
+      },
+      {
+        "name": "Email",
+        "icon": "fas fa-envelope",
+        "url": "mailto:baramrayyan@gmail.com"
+      },
+      {
+        "name": "JUST",
+        "icon": "fa fa-university",
+        "url": "https://www.just.edu.jo/"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "cloudstream-extensions-arabic",
+      "title": "CloudStream Extensions Arabic",
+      "description": "Arabic content provider plugins for the CloudStream Android app.",
+      "url": "https://github.com/ImZaw/cloudstream-extensions-arabic"
+    },
+    {
+      "id": "siki",
+      "title": "Siki",
+      "description": "A library and REST API that lets you query Arabic streaming sites in a unified way. Instead of writing separate scraping code for each site, Siki wraps them all behind one consistent interface.",
+      "url": "https://github.com/ImZaw/siki"
+    },
+    {
+      "id": "qs",
+      "title": "Quiz Platform",
+      "description": "A simple quiz website with multiple choice questions, helping me to study for exams. I used AI to build it.",
+      "url": "sites/qs/index.html"
+    },
+    {
+      "id": "small-projects",
+      "title": "Small projects in C++",
+      "description": "Projects I created while learning C++ like calculator, To-do list, Watch list using APIs, and more.",
+      "url": "https://github.com/baramrayyan/small-projects"
+    }
+  ],
+  "articles": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "date": "2006-07-25",
+      "description": "To know me more.",
+      "file": "articles/intro.md"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Problem-Solving Competition",
+      "description": "Secured 8th place in the competition which was held in my university, it was a great experience especially it was in my very first semester in the university.",
+      "year": "2024"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML, CSS, JS",
+      "level": "Intermediate"
+    },
+    {
+      "name": "C++",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Problem-Solving",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate"
+    },
+    {
+      "name": "CCNA",
+      "level": "Learning"
+    },
+    {
+      "name": "Python",
+      "level": "Learning"
+    }
+  ],
+  "education": [
+    {
+      "title": "Network Engineering and Security",
+      "institution": "Jordan University of Science and Technology",
+      "year": "2024 - 2029",
+      "description": ""
+    }
+  ],
+  "lifeExperience": [
+    {
+      "title": "CTC - Public Relations",
+      "year": "2024 - 2025",
+      "description": "I volunteered with a university club to arrange and manage workshops provided from companies and experienced workers to help students out."
+    }
+  ]
+}

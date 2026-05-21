@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baramjo</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@400;600;700&family=Outfit:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+
+  <body>
+    <div class="background-effects">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="navbar">
+      <div class="nav-content" style="justify-content: flex-start; gap: 0;">
+        <a href="index.html" class="logo-text">Baramjo</a>
+        <div class="nav-cli">
+          <span class="cli-prompt">cd</span>
+          <div class="cli-input-wrapper">
+            <input
+              type="text"
+              id="cli-input"
+              placeholder="Projects, Articles, About..."
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <ul
+              id="cli-suggestions"
+              class="cli-suggestions"
+              style="display: none"
+            ></ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <!-- Hero Section -->
+      <section id="hero" class="hero-section glass-panel fade-in">
+        <!-- Populated by JS -->
+      </section>
+      <div class="split-section">
+        <!-- Timelines -->
+        <div class="main-panel">
+          <section
+            id="experience"
+            class="section fade-in"
+            style="display: none"
+          >
+            <h2 class="section-title" style="font-size: 2rem">Experience</h2>
+            <div class="timeline" id="experience-timeline"></div>
+          </section>
+
+          <section
+            id="education-section"
+            class="section fade-in"
+            style="display: none"
+          >
+            <h2 class="section-title" style="font-size: 2rem">Education</h2>
+            <div class="timeline" id="education-timeline"></div>
+          </section>
+
+          <section
+            id="life-section"
+            class="section fade-in"
+            style="display: none"
+          >
+            <h2 class="section-title" style="font-size: 2rem">
+              Life Experience
+            </h2>
+            <div class="timeline" id="life-timeline"></div>
+          </section>
+        </div>
+
+        <!-- Side Panels -->
+        <div class="side-panel">
+          <!-- Technical Skills -->
+          <section id="skills" class="section fade-in">
+            <h2 class="section-title" style="font-size: 2rem">
+              Technical Skills
+            </h2>
+            <div id="skills-list" class="skills-container">
+              <!-- Populated by JS -->
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- Achievements Section -->
+      <section id="certifications" class="section fade-in" style="display: none">
+        <h2 class="section-title">Certifications & Awards</h2>
+        <div id="certifications-list" class="skills-container">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+      <!-- Sites Section -->
+      <section id="projects" class="section fade-in">
+        <h2 class="section-title">Projects</h2>
+        <div id="projects-grid" class="grid">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+
+      <!-- Blogs Section -->
+      <section id="articles" class="section fade-in">
+        <h2 class="section-title">Articles</h2>
+        <div id="articles-grid" class="grid">
+          <!-- Populated by JS -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Baramjo. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

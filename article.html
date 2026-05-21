@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article - Baramjo</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@400;600;700&family=Outfit:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Include Marked.js to parse Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <div class="background-effects">
+      <div class="blob blob-1"></div>
+    </div>
+
+    <nav class="navbar">
+      <div class="nav-content">
+        <a href="index.html" class="logo-text">Baramjo</a>
+      </div>
+    </nav>
+
+    <main class="container">
+      <article class="blog-container glass-panel fade-in">
+        <a href="index.html" class="back-btn">&larr; Back to Home</a>
+
+        <div id="article-header" class="blog-header">
+          <!-- Title and Date populated by JS -->
+        </div>
+
+        <div id="article-content" class="blog-content markdown-body">
+          Loading content...
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Baramjo. All rights reserved.</p>
+    </footer>
+
+    <script src="js/article.js"></script>
+  </body>
+</html>
