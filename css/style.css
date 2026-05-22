@@ -132,7 +132,8 @@ html {
 .nav-cli {
     display: flex;
     align-items: center;
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     position: relative;
     margin-left: 0.5rem;
 }
@@ -580,6 +581,14 @@ html {
     font-style: italic;
 }
 
+.markdown-body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
@@ -691,14 +700,117 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .nav-content {
+        padding: 0 1rem;
+    }
+    
+    .container {
+        padding: 80px 1rem 3rem;
+    }
+
+    .glass-panel {
+        padding: 1.5rem;
+    }
+
     .hero-section {
         flex-direction: column-reverse;
         text-align: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
     }
-    .split-section {
-        flex-direction: column;
-    }
+
     .hero-title {
         font-size: 3rem;
+    }
+
+    .social-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .split-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .section {
+        margin-bottom: 4rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.25rem;
+    }
+
+    .timeline {
+        padding-left: 1.5rem;
+    }
+    
+    .timeline-item::before {
+        left: -1.85rem;
+        width: 12px;
+        height: 12px;
+        top: 7px;
+    }
+
+    .blog-header {
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .blog-header h1 {
+        font-size: 2.2rem;
+    }
+
+    .browser-body {
+        padding: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 1rem 0;
+    }
+
+    .nav-content {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
+    }
+
+    .nav-cli {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .logo-text {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .hero-image-container {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .hero-image-container::after {
+        top: -6px; left: -6px; right: -6px; bottom: -6px;
+    }
+
+    .blog-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .markdown-body {
+        font-size: 1rem;
     }
 }
